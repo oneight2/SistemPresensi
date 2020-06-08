@@ -1,0 +1,24 @@
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.flex img{
+	max-width: 250px;
+}
+h2,h1{
+	margin: 10% 0 5% 0;
+	color: #394A86;
+	font-family: Open Sans, sans-serif;
+}
+.center{
+	margin: 2% auto;
+	display: block;
+	border: none;
+	text-align: center;
+}
+#absenMasuk, #absenPulang{
+	opacity: 0;
+}
