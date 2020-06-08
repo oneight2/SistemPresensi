@@ -1,0 +1,26 @@
+cara memakai aplikasi :
+software yang harus tersedia:
+- XAMPP
+- Web browser (chorome, Mozilla firefox)
+
+hardware yang harus tersedia :
+- RFID Reader
+- Kartu RFID
+
+langkah instalasi:
+1. instal terlebih dahulu web server XAMPP
+2. pindahkan folder aplikasi absensi ke folder instalasi XAMMP yang default alamatnya Localdisk C: Xampp/htdocs/
+3. buka aplikasi XAMPP dan klik start pada Apache & mySQL
+4. buka pada web browser https://localhost/phpmyadmin
+5. pilih create database dan berinama presensi lalu klik tombol Go
+6. pilih menu import lalu klik upload file masuk kedalam folder presensi lalu database pilih file presensi.sql lalu tekan tombol Go
+7. hubungkan alat RFID reader
+8. buka web browser dan ketikan alamat https://localhost/absensi
+9. maka akan muncul halaman untuk tap kartu RFID
+10. jika ingin masuk halaman admin ketikan alamat https://localhost/absensi/dashboard/
+11. login sebagai admin dengan username: admin passwword : admin
+12. aplikasi sudah bisa dijalankan dan diatur
+
+-----------------------------MOCHAMAD SYARIF HIDAYAT----------------------------------------
+-------------------------------------1606109------------------------------------------------
+
